@@ -15,4 +15,4 @@ sudo zypper in --non-interactive ffmpeg libavcodec-full vlc-codecs pipewire-aptx
 sudo zypper in --non-interactive firefox;
 sudo zypper in --non-interactive gh;
 
-bash ~/.setup-dots/dots/wm/setup.sh
+fish ~/.setup-dots/dots/wm/setup.sh
