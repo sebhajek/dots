@@ -16,7 +16,7 @@ sudo zypper -n in ffmpeg libavcodec-full vlc-codecs pipewire-aptx gstreamer-plug
 sudo zypper -n in firefox;
 sudo zypper -n in gh;
 sudo zypper -n in rustup && rustup toolchain install stable;
-
+sudo zypper -n in openssl;
 cargo install cargo-update;
 
 fish ~/.setup-dots/dots/wm/setup.sh;
