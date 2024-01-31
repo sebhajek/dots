@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env fish
 sudo zypper refresh;
 sudo zypper in --non-interactive curl;
 sudo zypper in --non-interactive git fish opi nano;
