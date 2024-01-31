@@ -8,6 +8,3 @@ git submodule update --init --recursive;
 git submodule update --recursive --remote;
 
 fish ~/.setup-dots/dots/setup.sh;
-
-rm -rf ~/setup-dots/dots;
-rm -rf ~/setup-dots/fonts;
