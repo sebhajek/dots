@@ -15,4 +15,4 @@ sudo zypper -n in ffmpeg libavcodec-full vlc-codecs pipewire-aptx gstreamer-plug
 sudo zypper -n in firefox;
 sudo zypper -n in gh;
 
-fish ~/.setup-dots/dots/wm/setup.sh
+fish ~/.setup-dots/dots/wm/setup.sh;
