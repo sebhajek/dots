@@ -5,7 +5,7 @@ sudo zypper -n in git fish opi nano;
 sudo zypper -n remove pulseaudio;
 sudo zypper -n in pipewire pipewire-pulseaudio;
 sudo zypper -n in --no-recommends luajit;
-sudo zypper -n in -tpackage --no-recommends sway-branding-upstream sway swayidle swaylock waybar; #swaybar
+sudo zypper -n in -tpackage --no-recommends sway-branding-upstream sway swayidle swaylock waybar dunst; #swaybar
 sudo zypper -n in -tpackage --no-recommends greetd gtkgreet;
 sudo zypper -n in -tpackage --no-recommends foot tmux;
 
