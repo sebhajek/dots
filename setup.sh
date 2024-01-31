@@ -1,6 +1,6 @@
 #!/usr/bin/env fish
 sudo zypper refresh;
-sudo zypper -n in curl;
+sudo zypper -n in curl wget;
 sudo zypper -n in git fish opi nano;
 sudo zypper -n in --no-recommends luajit;
 sudo zypper -n in nmcli;
