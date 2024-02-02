@@ -17,6 +17,9 @@ sudo zypper -n in firefox;
 sudo zypper -n in gh;
 sudo zypper -n in rustup && rustup toolchain install stable;
 sudo zypper -n in openssl;
+sudo zypper -n in neofetch;
 #cargo install cargo-update;
 
 bash ~/.setup-dots/dots/wm/setup.sh;
+bash ~/.setup-dots/dots/tty/setup.sh;
+neofetch;
