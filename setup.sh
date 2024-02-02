@@ -1,4 +1,4 @@
-#!/usr/bin/env fish
+#!/usr/bin/env bash
 sudo zypper refresh;
 sudo zypper -n in curl wget 7zip;
 sudo zypper -n in git fish opi nano;
@@ -19,4 +19,4 @@ sudo zypper -n in rustup && rustup toolchain install stable;
 sudo zypper -n in openssl;
 #cargo install cargo-update;
 
-fish ~/.setup-dots/dots/wm/setup.sh;
+bash ~/.setup-dots/dots/wm/setup.sh;
