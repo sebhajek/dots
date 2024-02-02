@@ -41,6 +41,6 @@ sudo zypper -n in gh;
 echo -e "${BGREEN}ALMOST THERE${NC}"
 sudo zypper -n in neofetch;
 neofetch;
-read -p "Press any key to continue... " -n1 -s;
-rm -rf ~/.setup-dots/dots;
+read -p "Press any key to continue... " -n1 -s
+rm -rf ~/.setup-dots;
 sudo shutdown -r 0;
