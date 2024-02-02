@@ -1,9 +1,6 @@
 [submodule "wm"]
 	path = wm
 	url = https://github.com/sebhajek/dots-wm.git
-[submodule "tmux"]
-	path = tmux
-	url = https://github.com/sebhajek/dots-tmux.git
 [submodule "tty"]
 	path = tty
 	url = https://github.com/sebhajek/dots-tty.git
