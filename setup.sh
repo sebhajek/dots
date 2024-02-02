@@ -27,7 +27,11 @@ sudo zypper --gpg-auto-import-keys ref;
 sudo zypper -n dup --from packmanessentials --allow-vendor-change;
 sudo zypper -n in ffmpeg libavcodec-full vlc-codecs pipewire-aptx gstreamer-plugins-bad-codecs gstreamer-plugins-ugly-codecs gstreamer-plugins-libav gstreamer-plugins-good gstreamer-plugins-good-extra gstreamer-plugins-bad gstreamer-plugins-ugly;
 
+echo -e "${BGREEN}IN WM AND DM${NC}";
 bash ~/.setup-dots/dots/wm/setup.sh;
+echo -e "${BGREEN}IN FONTS${NC}";
+bash ~/.setup-dots/dots/wm/fonts.sh;
+echo -e "${BGREEN}IN TTY${NC}"
 bash ~/.setup-dots/dots/tty/setup.sh;
 
 sudo zypper -n in firefox;
@@ -37,6 +41,6 @@ sudo zypper -n in gh;
 echo -e "${BGREEN}ALMOST THERE${NC}"
 sudo zypper -n in neofetch;
 neofetch;
-read -n 1 -s;
+read -p "Press any key to continue... " -n1 -s;
 rm -rf ~/.setup-dots/dots;
 sudo shutdown -r 0;
