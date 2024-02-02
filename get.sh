@@ -2,7 +2,7 @@
 
 mkdir -p ~/.setup-dots/dots;
 cd ~/.setup-dots/dots;
-sudo zypper in -y git fish;
+sudo zypper in -y git;
 git clone https://github.com/sebhajek/dots.git ~/.setup-dots/dots;
 git submodule update --init --recursive;
 git submodule update --recursive --remote;
