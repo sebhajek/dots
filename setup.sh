@@ -29,6 +29,7 @@ sudo zypper -n in ffmpeg libavcodec-full vlc-codecs pipewire-aptx gstreamer-plug
 echo -e "${BGREEN}IN WM AND DM${NC}";
 bash ~/.setup-dots/dots/wm/setup.sh;
 echo -e "${BGREEN}IN FONTS${NC}";
+bash ~/.setup-dots/dots/wm/gtk/setup.sh;
 bash ~/.setup-dots/dots/wm/fonts.sh;
 echo -e "${BGREEN}IN TTY${NC}"
 bash ~/.setup-dots/dots/tty/setup.sh;
