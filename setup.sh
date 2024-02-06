@@ -7,7 +7,7 @@ GREEN='\033[0;32m'
 NC='\033[0m'
 
 sudo zypper refresh;
-sudo zypper dup;
+sudo zypper -n dup;
 echo -e "${BGREEN}IN BASIC UTILS${NC}"
 sudo zypper -n in curl wget 7zip;
 sudo zypper -n in fish opi nano;
