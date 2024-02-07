@@ -40,6 +40,10 @@ sudo zypper --gpg-auto-import-keys ref;
 sudo zypper -n dup --from packmanessentials --allow-vendor-change;
 sudo zypper -n in ffmpeg libavcodec-full vlc-codecs pipewire-aptx gstreamer-plugins-bad-codecs gstreamer-plugins-ugly-codecs gstreamer-plugins-libav gstreamer-plugins-good gstreamer-plugins-good-extra gstreamer-plugins-bad gstreamer-plugins-ugly;
 
+
+echo -e "${BGREEN}IN DEV${NC}"
+bash ~/.setup-dots/dots/dev/setup.sh;
+
 echo -e "${BGREEN}ALMOST THERE${NC}"
 sudo zypper -n in neofetch;
 neofetch;
