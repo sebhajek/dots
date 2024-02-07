@@ -4,3 +4,6 @@
 [submodule "tty"]
 	path = tty
 	url = https://github.com/sebhajek/dots-tty.git
+[submodule "dev"]
+	path = dev
+	url = https://github.com/sebhajek/dots-dev
