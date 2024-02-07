@@ -11,8 +11,6 @@ sudo zypper -n dup;
 echo -e "${BGREEN}IN BASIC UTILS${NC}"
 sudo zypper -n in curl wget 7zip;
 sudo zypper -n in fish opi nano;
-sudo zypper -n in lua54 lua54-luarocks luajit;
-sudo zypper -n in rustup && rustup toolchain install stable;
 
 echo -e "${REDBG}REMOVING PULSE IF IT EXISTS${NC}"
 sudo zypper -n remove pulseaudio;
